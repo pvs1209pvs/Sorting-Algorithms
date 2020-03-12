@@ -6,7 +6,7 @@ class Node{
     int parentIndex;
 
     Node(){
-        
+
     }
 
     Node(int x, int y){
@@ -16,3 +16,5 @@ class Node{
 };
 
 void add_to_heap(int value);
+void min_heapify();
+void swap(int parent, int child);

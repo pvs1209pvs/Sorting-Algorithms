@@ -23,6 +23,15 @@ int main(){
     for (size_t i = 0; i < sizeList; i++){
         cout << unheaped[i].value << " " << unheaped[i].parentIndex << endl ;
     }   
+
+    min_heapify();
+
+    cout << "After Heapify" << endl;
+
+    for (size_t i = 0; i < sizeList; i++){
+        cout << unheaped[i].value << " " << unheaped[i].parentIndex << endl ;
+    }   
+    
 }
 
 void add_to_heap(int value){
@@ -45,15 +54,17 @@ void add_to_heap(int value){
 void min_heapify(){
     for (size_t i = 0; i < sizeList; i++){
         if(unheaped[i].value > unheaped[(i*2)+1].value){
-            swap(i);
+            swap(i, (i*2)+1);
         }
 
         if(unheaped[i].value > unheaped[(i*2)+2].value){
-            swap(i);
+            swap(i, (i*2)+2);
         }
     }
 }
 
-void swap(int index){
-
+void swap(int parent, int child){
+    int temp = unheaped[parent].value;
+    unheaped[parent].value = unheaped[child].value;
+    unheaped[child].value = temp;
 }
