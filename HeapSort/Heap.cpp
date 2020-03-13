@@ -1,7 +1,3 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<vector>
-#include<iostream>
 #include "Heap.hpp"
 
 int sizeList = 7;
@@ -14,7 +10,7 @@ int main(){
     unheaped = new Node[sizeList];
     heaped = new Node[sizeList];
 
-    int array[] = {11,4,1,1,11,13,2};
+    int array[] = {3,7,5,1,2,4,6};
 
     for (size_t i = 0; i < sizeList; i++){
         add_to_heap(array[i]);
@@ -24,7 +20,7 @@ int main(){
         cout << unheaped[i].value << " " << unheaped[i].parentIndex << endl ;
     }   
 
-    min_heapify();
+    heapify(0);
 
     cout << "After Heapify" << endl;
 
@@ -41,26 +37,18 @@ void add_to_heap(int value){
         count++;
     }else{
         if(unheaped[(parent*2)+1].value == 0){
-            Node *val = new Node(value, (parent*2)+1);
+            Node *val = new Node(value, parent);
             unheaped[(parent*2)+1] = *val;
         }else if(unheaped[(parent*2)+2].value == 0){
-            Node *val = new Node(value,(parent*2)+2);
+            Node *val = new Node(value,parent);
             unheaped[(parent*2)+2] = *val;
             parent++;
         }
     }
 }
 
-void min_heapify(){
-    for (size_t i = 0; i < sizeList; i++){
-        if(unheaped[i].value > unheaped[(i*2)+1].value){
-            swap(i, (i*2)+1);
-        }
-
-        if(unheaped[i].value > unheaped[(i*2)+2].value){
-            swap(i, (i*2)+2);
-        }
-    }
+void heapify(int index){
+    
 }
 
 void swap(int parent, int child){

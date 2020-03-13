@@ -1,3 +1,8 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<vector>
+#include<iostream>
+
 using namespace std;
 
 class Node{
@@ -16,5 +21,5 @@ class Node{
 };
 
 void add_to_heap(int value);
-void min_heapify();
+void heapify(int index);
 void swap(int parent, int child);
