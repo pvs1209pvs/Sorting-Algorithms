@@ -20,6 +20,8 @@ class Node{
     }
 };
 
-void add_to_heap(int value);
-void heapify(int index);
-void swap(int parent, int child);
+void insert(int value);
+void max_heap(int index);
+void heapify_above(int index);
+void heapify_below(int index);
+int parentIndex(int index);
