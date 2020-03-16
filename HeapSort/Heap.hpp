@@ -20,8 +20,12 @@ class Node{
     }
 };
 
+void printarray();
 void insert(int value);
 void max_heap(int index);
+int remove_from_heap(int index);
 void heapify_above(int index);
 void heapify_below(int index);
+int leftChild(int index);
+int rightChild(int index);
 int parentIndex(int index);
