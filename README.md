@@ -2,7 +2,7 @@
 
 Implementation of different sorting algorithms:
 
-In C++:
+In C++:-
 * Heapsort
 * Counting Sort
 * Insertion Sort
