@@ -8,3 +8,6 @@ In C++
 * Insertion Sort
 * Cycle Sort
 * Bubble Sort
+
+In Python
+* Bucket Sort
