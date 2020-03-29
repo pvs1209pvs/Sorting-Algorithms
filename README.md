@@ -11,3 +11,4 @@ In C++
 
 In Python
 * Bucket Sort
+* Shell Sort
