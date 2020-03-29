@@ -36,7 +36,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.ShellSort">
     <configuration name="BucketSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,8 +59,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ShellSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ShellSort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ShellSort/ShellSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ShellSort" />
         <item itemvalue="Python.BucketSort" />
       </list>
     </recent_temporary>
@@ -78,7 +101,9 @@
       <workItem from="1584905095496" duration="676000" />
       <workItem from="1584907704700" duration="614000" />
       <workItem from="1585028052190" duration="3554000" />
-      <workItem from="1585110457509" duration="2657000" />
+      <workItem from="1585110457509" duration="2973000" />
+      <workItem from="1585454934855" duration="19000" />
+      <workItem from="1585498951117" duration="4022000" />
     </task>
     <servers />
   </component>
@@ -86,48 +111,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1585113881367">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1585503627243">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1585113881367" />
-    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1585113881367">
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1585503627243" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1585503627243">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1585113881367" />
-    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1585113881367">
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1585503627243" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1585503627243">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1585113881367" />
-    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1585113881367">
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1585503627243" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1585503627243">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="174" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1585113881367" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1585031622158">
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1585503627243" />
+    <state width="1493" height="143" key="GridCell.Tab.1.bottom" timestamp="1585503283288">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1585031622158" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1585031622158">
+    <state width="1493" height="143" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1585503283288" />
+    <state width="1493" height="143" key="GridCell.Tab.1.center" timestamp="1585503283288">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1585031622158" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1585031622157">
+    <state width="1493" height="143" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1585503283288" />
+    <state width="1493" height="143" key="GridCell.Tab.1.left" timestamp="1585503283288">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1585031622157" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1585031622158">
+    <state width="1493" height="143" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1585503283288" />
+    <state width="1493" height="143" key="GridCell.Tab.1.right" timestamp="1585503283288">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1585031622158" />
+    <state width="1493" height="143" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1585503283288" />
     <state x="279" y="92" key="SettingsEditor" timestamp="1585028628863">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="279" y="92" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1585028628863" />
-    <state x="477" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585110483313">
+    <state x="477" y="274" key="com.intellij.ide.util.TipDialog" timestamp="1585499031970">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="477" y="274" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1585110483313" />
+    <state x="477" y="274" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1585499031970" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$BucketSort.coverage" NAME="BucketSort Coverage Results" MODIFIED="1585113881360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BucketSort" />
+    <SUITE FILE_PATH="coverage/Python$ShellSort.coverage" NAME="ShellSort Coverage Results" MODIFIED="1585503627224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ShellSort" />
   </component>
 </project>
